@@ -25,8 +25,8 @@
     <h3>Alpha service</h3>
     <p>The Find Case Law service is in the very early stages of development, referred to as Alpha. This means that
       this is the first version of the Find Case Law service.</p>
-    <p>This service will develop and improve over the next few months and years. You can help <a href="{% translate " survey.link"
-        %}">contribute to the development of the service by giving us feedback.</a></p>
+    <p>This service will develop and improve over the next few months and years. You can help contribute to the development of the service by <a href="{% translate " survey.link"
+        %}">giving us feedback</a>.</p>
     <h3>What is Case law?</h3>
     <p>Case law is the law which is created through court judgments and tribunal decisions. This is sometimes known as
       common law. Judges will follow the 'precedent' or the principles used in previous judgments and decisions when
@@ -35,7 +35,7 @@
     <p>Legislation is law written by Members of Parliament (<abbr title="Members of Parliament">MPs</abbr>) and is
       sometimes known as statutory law or the
       statute.
-      <a href="https://www.legislation.gov.uk/">You can find Legislation</a>.
+      <a href="https://www.legislation.gov.uk/">Find out more about Legislation</a>.
     </p>
     <h3>Our legal basis for archiving and publishing case law</h3>
     <p><a href="https://www.legislation.gov.uk/ukpga/Eliz2/6-7/51/contents">The Public Records Act 1958</a> provides
@@ -76,8 +76,8 @@
     <h2>Find a Judgment or Decision</h2>
     <p>You can search across the full text of every judgment and decision. You can also search and browse judgments,
       by
-      neutral citation, court, party, judge and within a date range. These options can be combined on <a href="{% url "
-        structured_search" %}">the 'More Options Search' page</a>.</p>
+      neutral citation, court, party, judge and within a date range. These options can be combined on the <a href="{% url "
+        structured_search" %}">'More Options Search'</a> page.</p>
     <p>You can find the latest published judgments and decisions as a list on the <a href="{% url " home" %}">Find Case
         Law</a> page. Alternatively you can browse
       by
@@ -91,8 +91,7 @@
       are closest together will be most relevant at the top of the search results.</p>
     <h3>Search specific fields</h3>
     <p>Alternatively you can search using one or more specific search terms on the <a href="{% url " structured_search"
-        %}">'more search options'</a>page. The
-      search
+        %}">'more search options'</a> page. The search
       boxes search particular fields. You can use multiple search boxes at the same time to help narrow down your
       search
       results. With the exception of Keyword, these boxes do not search the full text of judgments and decisions.</p>
@@ -178,7 +177,7 @@
     <p>The court or chamber where the case was decided will be at the top of the judgment or decision.</p>
     <p>You can browse by court or chamber division to see all the judgments and decisions we have received from that
       court.</p>
-    <p>You can find more information about <a href="https://www.judiciary.uk/about-the-judiciary/the-justice-system/court-structure/">courts and tribunals</a>.</p>
+    <p>Find out more about <a href="https://www.judiciary.uk/about-the-judiciary/the-justice-system/court-structure/">courts and tribunals</a>.</p>
     <h4>Date</h4>
     <p>The date the judgment or decision was handed down on will be at the top of the judgment or decision.</p>
     <p>You can search by date range to look for judgments and decisions within a particular time frame.</p>
@@ -471,7 +470,7 @@
       whether or not you need to re-import the DOCX for an updated judgment. In the near future, we hope to provide a
       feed
       that only shows material changes, so you will not need to keep a list of hashes.</p>
-    <p>Example update detection workflow</p>
+    <p>Example update detection workflow:</p>
     <ul>
       <li>Poll the recently-updated feed</li>
       <li>Detect a new feed item using the timestamps in the feed</li>
@@ -549,7 +548,7 @@
     </p>
     <p>The application form is designed to allow you to explain your purpose including: how you intend to re-use the
       data in a way that is consistent with the administration of justice</p>
-    <p>We are assessing applications using<a href="https://en.wikipedia.org/wiki/Five_safes"> the "five safes"
+    <p>We are assessing applications using <a href="https://en.wikipedia.org/wiki/Five_safes"> the "five safes"
         framework</a>:</p>
     <ol>
       <li>
@@ -586,11 +585,10 @@
     <p>If you are unsure please apply.</p>
     <p>If your application is unsuccessful you can find more information about <a
         href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/complaints-about-re-use/">
-        making a complaint against re-use of public sector information</a></p>
+        making a complaint against re-use of public sector information</a>.</p>
   </section>
-  <section>
-    <h2>Contact us</h2>
-    <p><a href="mailto:{% translate " contact.email" %}">{% translate "contact.email" %}</a></p>
+  <section>    <h2>Contact us</h2>
+    <p>You can email us at <a href="mailto:{% translate " contact.email" %}">{% translate "contact.email" %}</a>.</p>
   </section>
 </div>
 {% endblock %}
