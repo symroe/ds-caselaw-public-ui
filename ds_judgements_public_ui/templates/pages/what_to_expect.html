@@ -24,12 +24,9 @@
     <h2>About this service</h2>
     <h3>Alpha service</h3>
     <p>The Find Case Law service is in the very early stages of development, referred to as Alpha. This means that
-      this
-      is the first version of the Find Case Law service.</p>
-    <p>This service will develop and improve over the next few months and years. <a href="{% translate " survey.link"
-        %}">You can help contribute to
-        the
-        development of the service by giving us feedback.</a></p>
+      this is the first version of the Find Case Law service.</p>
+    <p>This service will develop and improve over the next few months and years. You can help <a href="{% translate " survey.link"
+        %}">contribute to the development of the service by giving us feedback.</a></p>
     <h3>What is Case law?</h3>
     <p>Case law is the law which is created through court judgments and tribunal decisions. This is sometimes known as
       common law. Judges will follow the 'precedent' or the principles used in previous judgments and decisions when
@@ -81,12 +78,12 @@
       by
       neutral citation, court, party, judge and within a date range. These options can be combined on <a href="{% url "
         structured_search" %}">the 'More Options Search' page</a>.</p>
-    <p>You can find the latest published judgments and decisions as a list on <a href="{% url " home" %}">the Find Case
-        Law page.</a> Alternatively you can browse
+    <p>You can find the latest published judgments and decisions as a list on the <a href="{% url " home" %}">Find Case
+        Law</a> page. Alternatively you can browse
       by
       court and filter results.</p>
     <h3>Search across the text of every judgment and decision</h3>
-    <p>The search box on <a href="{% url " home" %}">the Find Case Law page </a>allows you to
+    <p>The search box on the <a href="{% url " home" %}"> Find Case Law</a> page allows you to
       search using any search terms including a neutral citation, name(s) and keyword(s). This will search the full
       text
       of every judgment or decision we have.</p>
@@ -94,7 +91,7 @@
       are closest together will be most relevant at the top of the search results.</p>
     <h3>Search specific fields</h3>
     <p>Alternatively you can search using one or more specific search terms on the <a href="{% url " structured_search"
-        %}">'more search options' page</a>. The
+        %}">'more search options'</a>page. The
       search
       boxes search particular fields. You can use multiple search boxes at the same time to help narrow down your
       search
@@ -181,8 +178,7 @@
     <p>The court or chamber where the case was decided will be at the top of the judgment or decision.</p>
     <p>You can browse by court or chamber division to see all the judgments and decisions we have received from that
       court.</p>
-    <p><a href="https://www.judiciary.uk/about-the-judiciary/the-justice-system/court-structure/">You can find more
-        information about courts and tribunals</a>.</p>
+    <p>You can find more information about <a href="https://www.judiciary.uk/about-the-judiciary/the-justice-system/court-structure/">courts and tribunals</a>.</p>
     <h4>Date</h4>
     <p>The date the judgment or decision was handed down on will be at the top of the judgment or decision.</p>
     <p>You can search by date range to look for judgments and decisions within a particular time frame.</p>
@@ -405,9 +401,8 @@
       publication and re-use. This is the <abbr title="Legal Document Mark-up Language">LegalDocML</abbr> version from
       which we create the
       <abbr title="Hypertext Markup Language">HTML</abbr> and <abbr title="Portable Document Format">PDF</abbr>
-      documents. <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=legaldocml">You can read more
-        about
-        <abbr title="Legal Document Mark-up Language">LegalDocML</abbr> here.</a>
+      documents. Read more about <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=legaldocml">
+        <abbr title="Legal Document Mark-up Language">LegalDocML</abbr>.</a>
     </p>
     <p>This process allows us to have consistent data about judgments and decisions. This includes:</p>
     <ul>
@@ -460,8 +455,7 @@
     <h4>Accessing feeds</h4>
     <p>You can monitor a list of recently published or recently updated judgments using the Atom feeds available in
       our public API. An OpenAPI specification is available at
-      <a
-        href="https://github.com/nationalarchives/ds-caselaw-public-access-service/blob/main/doc/openapi/public_api.yml">https://github.com/nationalarchives/ds-caselaw-public-access-service/blob/main/doc/openapi/public_api.yml</a>.
+      <a href="https://github.com/nationalarchives/ds-caselaw-public-access-service/blob/main/doc/openapi/public_api.yml">https://github.com/nationalarchives/ds-caselaw-public-access-service/blob/main/doc/openapi/public_api.yml</a>.
     </p>
     <p>Example root feed URL
       <a href="https://caselaw.nationalarchives.gov.uk/atom.xml">https://caselaw.nationalarchives.gov.uk/atom.xml
@@ -502,7 +496,7 @@
       decisions. Both licences are free to use.</p>
     <ul>
       <li>
-        <a href="https://caselaw.nationalarchives.gov.uk/open-justice-licence">The Open Justice Licence,</a> that
+        The <a href="https://caselaw.nationalarchives.gov.uk/open-justice-licence">Open Justice Licence</a>, that
         permits re-use but excludes computational analysis. You do not need to apply for this licence.
       </li>
       <li>
@@ -537,9 +531,9 @@
     <h3>Open justice licence</h3>
     <p>You can use this licence to re-publish judgments or decisions on your own website. For example in a blog post.
       Computational analysis of judgments including basic search indexing is not permitted under this licence.</p>
-    <p>You do not need to apply for this licence however you should be aware of the responsibilities you have. <a
-        href="https://caselaw.nationalarchives.gov.uk/open-justice-licence">You can read the terms of the Open
-        Justice Licence here</a></p>
+    <p>You do not need to apply for this licence however you should be aware of the responsibilities you have. You can read the <a
+        href="https://caselaw.nationalarchives.gov.uk/open-justice-licence">terms of the Open
+        Justice Licence</a>.</p>
     <p>If you are unsure you are within the terms of the Open Justice Licence please <a href="{% url "
         transactional_licence_form" %}">apply for the
         transactional
@@ -550,13 +544,13 @@
       decisions including basic search indexing.</p>
     <p>You can <a href="{% url " transactional_licence_form" %}">apply for the licence</a> at no cost by completing and
       submitting an application form.
-      <a href="{% static 'documents/application_form_for_licence_to_re-use.docx' %}">You can download the application
+      You can <a href="{% static 'documents/application_form_for_licence_to_re-use.docx' %}">download the application
         form</a>.
     </p>
     <p>The application form is designed to allow you to explain your purpose including: how you intend to re-use the
       data in a way that is consistent with the administration of justice</p>
     <p>We are assessing applications using<a href="https://en.wikipedia.org/wiki/Five_safes"> the "five safes"
-        framework:</a></p>
+        framework</a>:</p>
     <ol>
       <li>
         Safe People
@@ -592,7 +586,7 @@
     <p>If you are unsure please apply.</p>
     <p>If your application is unsuccessful you can find more information about <a
         href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/complaints-about-re-use/">
-        making a complaint against re-use of public sector information here.</a></p>
+        making a complaint against re-use of public sector information</a></p>
   </section>
   <section>
     <h2>Contact us</h2>
